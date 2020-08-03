@@ -1,0 +1,100 @@
+﻿'2DGameEngine.exe' (Win32): Loaded 'C:\Users\brade\source\repos\2DGameEngine\Debug\2DGameEngine.exe'. Symbols loaded.
+'2DGameEngine.exe' (Win32): Loaded 'C:\Windows\SysWOW64\ntdll.dll'. 
+'2DGameEngine.exe' (Win32): Loaded 'C:\Windows\SysWOW64\kernel32.dll'. 
+'2DGameEngine.exe' (Win32): Loaded 'C:\Windows\SysWOW64\KernelBase.dll'. 
+'2DGameEngine.exe' (Win32): Loaded 'C:\Windows\SysWOW64\apphelp.dll'. 
+'2DGameEngine.exe' (Win32): Loaded 'C:\Users\brade\source\repos\2DGameEngine\SDL2.dll'. Module was built without symbols.
+'2DGameEngine.exe' (Win32): Loaded 'C:\Windows\SysWOW64\advapi32.dll'. 
+'2DGameEngine.exe' (Win32): Loaded 'C:\Windows\SysWOW64\msvcrt.dll'. 
+'2DGameEngine.exe' (Win32): Loaded 'C:\Windows\SysWOW64\sechost.dll'. 
+'2DGameEngine.exe' (Win32): Loaded 'C:\Windows\SysWOW64\rpcrt4.dll'. 
+'2DGameEngine.exe' (Win32): Loaded 'C:\Windows\SysWOW64\sspicli.dll'. 
+'2DGameEngine.exe' (Win32): Loaded 'C:\Windows\SysWOW64\cryptbase.dll'. 
+'2DGameEngine.exe' (Win32): Loaded 'C:\Windows\SysWOW64\bcryptprimitives.dll'. 
+'2DGameEngine.exe' (Win32): Loaded 'C:\Windows\SysWOW64\gdi32.dll'. 
+'2DGameEngine.exe' (Win32): Loaded 'C:\Windows\SysWOW64\win32u.dll'. 
+'2DGameEngine.exe' (Win32): Loaded 'C:\Windows\SysWOW64\gdi32full.dll'. 
+'2DGameEngine.exe' (Win32): Loaded 'C:\Windows\SysWOW64\msvcp_win.dll'. 
+'2DGameEngine.exe' (Win32): Loaded 'C:\Windows\SysWOW64\ucrtbase.dll'. 
+'2DGameEngine.exe' (Win32): Loaded 'C:\Windows\SysWOW64\user32.dll'. 
+'2DGameEngine.exe' (Win32): Loaded 'C:\Windows\SysWOW64\imm32.dll'. 
+'2DGameEngine.exe' (Win32): Loaded 'C:\Windows\SysWOW64\ole32.dll'. 
+'2DGameEngine.exe' (Win32): Loaded 'C:\Windows\SysWOW64\combase.dll'. 
+'2DGameEngine.exe' (Win32): Loaded 'C:\Windows\SysWOW64\oleaut32.dll'. 
+'2DGameEngine.exe' (Win32): Loaded 'C:\Windows\SysWOW64\setupapi.dll'. 
+'2DGameEngine.exe' (Win32): Loaded 'C:\Windows\SysWOW64\cfgmgr32.dll'. 
+'2DGameEngine.exe' (Win32): Loaded 'C:\Windows\SysWOW64\bcrypt.dll'. 
+'2DGameEngine.exe' (Win32): Loaded 'C:\Windows\SysWOW64\shell32.dll'. 
+'2DGameEngine.exe' (Win32): Loaded 'C:\Windows\SysWOW64\SHCore.dll'. 
+'2DGameEngine.exe' (Win32): Loaded 'C:\Windows\SysWOW64\windows.storage.dll'. 
+'2DGameEngine.exe' (Win32): Loaded 'C:\Windows\SysWOW64\profapi.dll'. 
+'2DGameEngine.exe' (Win32): Loaded 'C:\Windows\SysWOW64\powrprof.dll'. 
+'2DGameEngine.exe' (Win32): Loaded 'C:\Windows\SysWOW64\umpdc.dll'. 
+'2DGameEngine.exe' (Win32): Loaded 'C:\Windows\SysWOW64\shlwapi.dll'. 
+'2DGameEngine.exe' (Win32): Loaded 'C:\Windows\SysWOW64\kernel.appcore.dll'. 
+'2DGameEngine.exe' (Win32): Loaded 'C:\Windows\SysWOW64\cryptsp.dll'. 
+'2DGameEngine.exe' (Win32): Loaded 'C:\Users\brade\source\repos\2DGameEngine\SDL2_image.dll'. Module was built without symbols.
+'2DGameEngine.exe' (Win32): Loaded 'C:\Users\brade\source\repos\2DGameEngine\SDL2_ttf.dll'. Module was built without symbols.
+'2DGameEngine.exe' (Win32): Loaded 'C:\Windows\SysWOW64\msvcp140d.dll'. 
+'2DGameEngine.exe' (Win32): Loaded 'C:\Windows\SysWOW64\vcruntime140d.dll'. 
+'2DGameEngine.exe' (Win32): Loaded 'C:\Windows\SysWOW64\ucrtbased.dll'. 
+'2DGameEngine.exe' (Win32): Loaded 'C:\Windows\SysWOW64\version.dll'. 
+'2DGameEngine.exe' (Win32): Loaded 'C:\Windows\SysWOW64\winmm.dll'. 
+'2DGameEngine.exe' (Win32): Loaded 'C:\Users\brade\source\repos\2DGameEngine\libfreetype-6.dll'. Module was built without symbols.
+'2DGameEngine.exe' (Win32): Loaded 'C:\Windows\SysWOW64\winmmbase.dll'. 
+'2DGameEngine.exe' (Win32): Loaded 'C:\Users\brade\source\repos\2DGameEngine\zlib1.dll'. Module was built without symbols.
+The thread 0x3514 has exited with code 0 (0x0).
+'2DGameEngine.exe' (Win32): Loaded 'C:\Windows\SysWOW64\uxtheme.dll'. 
+'2DGameEngine.exe' (Win32): Loaded 'C:\Windows\SysWOW64\clbcatq.dll'. 
+'2DGameEngine.exe' (Win32): Loaded 'C:\Windows\SysWOW64\MMDevAPI.dll'. 
+'2DGameEngine.exe' (Win32): Loaded 'C:\Windows\SysWOW64\devobj.dll'. 
+'2DGameEngine.exe' (Win32): Loaded 'C:\Windows\SysWOW64\avrt.dll'. 
+'2DGameEngine.exe' (Win32): Loaded 'C:\Windows\SysWOW64\dinput8.dll'. 
+'2DGameEngine.exe' (Win32): Loaded 'C:\Windows\SysWOW64\InputHost.dll'. 
+'2DGameEngine.exe' (Win32): Unloaded 'C:\Windows\SysWOW64\InputHost.dll'
+'2DGameEngine.exe' (Win32): Loaded 'C:\Windows\SysWOW64\InputHost.dll'. 
+'2DGameEngine.exe' (Win32): Loaded 'C:\Windows\SysWOW64\propsys.dll'. 
+'2DGameEngine.exe' (Win32): Loaded 'C:\Windows\SysWOW64\CoreUIComponents.dll'. 
+'2DGameEngine.exe' (Win32): Loaded 'C:\Windows\SysWOW64\ntmarta.dll'. 
+'2DGameEngine.exe' (Win32): Loaded 'C:\Windows\SysWOW64\WinTypes.dll'. 
+'2DGameEngine.exe' (Win32): Loaded 'C:\Windows\SysWOW64\CoreMessaging.dll'. 
+'2DGameEngine.exe' (Win32): Loaded 'C:\Windows\SysWOW64\CoreMessaging.dll'. 
+'2DGameEngine.exe' (Win32): Unloaded 'C:\Windows\SysWOW64\CoreMessaging.dll'
+'2DGameEngine.exe' (Win32): Loaded 'C:\Windows\SysWOW64\hid.dll'. 
+'2DGameEngine.exe' (Win32): Loaded 'C:\Windows\SysWOW64\wintrust.dll'. 
+'2DGameEngine.exe' (Win32): Loaded 'C:\Windows\SysWOW64\msasn1.dll'. 
+'2DGameEngine.exe' (Win32): Loaded 'C:\Windows\SysWOW64\crypt32.dll'. 
+'2DGameEngine.exe' (Win32): Loaded 'C:\Windows\SysWOW64\XInput1_4.dll'. 
+'2DGameEngine.exe' (Win32): Loaded 'C:\Windows\SysWOW64\msctf.dll'. 
+'2DGameEngine.exe' (Win32): Loaded 'C:\Windows\SysWOW64\TextInputFramework.dll'. 
+'2DGameEngine.exe' (Win32): Loaded 'C:\Windows\SysWOW64\iertutil.dll'. 
+'2DGameEngine.exe' (Win32): Loaded 'C:\Windows\SysWOW64\d3d9.dll'. 
+'2DGameEngine.exe' (Win32): Loaded 'C:\Windows\SysWOW64\dwmapi.dll'. 
+'2DGameEngine.exe' (Win32): Loaded 'C:\Windows\SysWOW64\DXCore.dll'. 
+'2DGameEngine.exe' (Win32): Loaded 'C:\Windows\System32\DriverStore\FileRepository\igdlh64.inf_amd64_caccc054fe35348f\igdumdim32.dll'. 
+'2DGameEngine.exe' (Win32): Unloaded 'C:\Windows\System32\DriverStore\FileRepository\igdlh64.inf_amd64_caccc054fe35348f\igdumdim32.dll'
+'2DGameEngine.exe' (Win32): Loaded 'C:\Windows\System32\DriverStore\FileRepository\igdlh64.inf_amd64_caccc054fe35348f\igdumdim32.dll'. 
+'2DGameEngine.exe' (Win32): Loaded 'C:\Windows\SysWOW64\ResourcePolicyClient.dll'. 
+'2DGameEngine.exe' (Win32): Unloaded 'C:\Windows\SysWOW64\ResourcePolicyClient.dll'
+'2DGameEngine.exe' (Win32): Loaded 'C:\Windows\System32\DriverStore\FileRepository\igdlh64.inf_amd64_caccc054fe35348f\igc32.dll'. 
+'2DGameEngine.exe' (Win32): Loaded 'C:\Users\brade\source\repos\2DGameEngine\libpng16-16.dll'. Module was built without symbols.
+'2DGameEngine.exe' (Win32): Unloaded 'C:\Users\brade\source\repos\2DGameEngine\libpng16-16.dll'
+'2DGameEngine.exe' (Win32): Loaded 'C:\Users\brade\source\repos\2DGameEngine\libpng16-16.dll'. Module was built without symbols.
+The thread 0x3690 has exited with code 0 (0x0).
+The thread 0x3698 has exited with code 0 (0x0).
+The thread 0x3674 has exited with code 0 (0x0).
+The thread 0x35cc has exited with code 0 (0x0).
+The thread 0x377c has exited with code 0 (0x0).
+The thread 0x2f64 has exited with code 0 (0x0).
+The thread 0x375c has exited with code 0 (0x0).
+The thread 0x373c has exited with code 0 (0x0).
+The thread 0x3738 has exited with code 0 (0x0).
+The thread 0x4c0 has exited with code 0 (0x0).
+The thread 0x1be8 has exited with code 0 (0x0).
+The thread 0x36bc has exited with code -1073741510 (0xc000013a).
+The thread 0x3710 has exited with code -1073741510 (0xc000013a).
+The thread 0x344c has exited with code -1073741510 (0xc000013a).
+The thread 0x34e8 has exited with code -1073741510 (0xc000013a).
+The thread 0x36c0 has exited with code -1073741510 (0xc000013a).
+The thread 0x25a4 has exited with code -1073741510 (0xc000013a).
+The program '[13528] 2DGameEngine.exe' has exited with code -1073741510 (0xc000013a).
