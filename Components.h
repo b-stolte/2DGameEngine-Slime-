@@ -9,3 +9,6 @@
 #include "ProjectileComponent.h"
 #include "AbilityComponent.h"
 #include "UILabel.h"
+#include "HealthComponent.h"
+#include "AIComponent.h"
+#include "SpawnerComponent.h"

@@ -16,9 +16,11 @@ public:
 
 
 	void createProjectile(Vector2D pos, Vector2D vel, int range, int speed, std::string tID);
+	void spawnEnemy(Vector2D pos, std::string tID);
 
 	void addFont(std::string id, std::string path, int fontSize);
 	TTF_Font* getFont(std::string id);
+
 private:
 	Manager* manager;
 	std::map<std::string, SDL_Texture*> textures;

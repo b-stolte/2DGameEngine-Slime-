@@ -17,8 +17,13 @@ public:
 	//float gravity = 0.1f;
 	Vector2D position;
 	Vector2D velocity;
-	Vector2D acceleration;
+	float acceleration;
+
 	int speed = 3;
+
+	bool moveLeft = false;
+	bool moveRight = false;
+	bool direction;
 
 
 	TransformComponent() {
@@ -42,15 +47,28 @@ public:
 		scale = sc;
 	}
 	void init() override {
+		acceleration = .6f;
 		velocity.zero();
-		acceleration.zero();
+		
 	
 	}
+
 	void update() override {
+		playerMovement();
 		position.x += velocity.x * speed;
 		position.y += velocity.y * speed;
-		velocity.x += acceleration.x;
-		velocity.y += acceleration.y;
+
+	}
+
+	void playerMovement() {
+			if (moveLeft) {
+				direction = false;
+				velocity.x -= acceleration;
+			}
+			else if (moveRight) {
+				direction = true;
+				velocity.x += acceleration;
+			}
 	}
 
 };

@@ -8,8 +8,12 @@ public:
 	Map(std::string tID, int mScale, int tSize);
 	~Map();
 
+	SDL_Rect BGsrc;
+	SDL_Texture* BGtex;
+
 	void loadMap(std::string path, int sizeX, int sizeY);
-	void drawMap();
+	void clearMap();
+	void drawBackground();
 	void addTile(int srcX, int srcY, int x, int y);
 
 

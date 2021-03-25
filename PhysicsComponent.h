@@ -6,97 +6,115 @@ class PhysicsComponent : public Component {
 
 public:
 	TransformComponent* transform;
-	// SET on a downward collision
 	bool isGrounded;
 	bool rightWalled;
 	bool leftWalled;
+
+	bool hasDrag;
 	float gravity;
 	float terminalVelocity;
-	bool jump;
-	bool Ljump;
-	bool Rjump;
-	int wallJumpCount;
+	float drag;
+	float friction;
+	float wallSlide;
+
+	
 
 
-	PhysicsComponent(float g) {
+	PhysicsComponent(float g, bool d) {
+		hasDrag = d;
 		gravity = g;
 		terminalVelocity = 4.8f;
+		drag = 0.2f;
+		wallSlide = 1.5f;
 	}
 
 	void applyAccelerations() {
-		if (!isGrounded && transform->velocity.y < terminalVelocity) {
+		//wall friction
+		if (!isGrounded && (leftWalled || rightWalled) && transform->velocity.y > 0) {
+			transform->velocity.y = wallSlide;
+		}
+		//gravity
+		else if (!isGrounded && transform->velocity.y < terminalVelocity) {
 			transform->velocity.y += gravity;
 		}
-		else if(isGrounded){
-			transform->velocity.y = 0;
+		if (hasDrag) {
+			applyDrag();
 		}
-		playerJump();
-		leftWallJump();
-		rightWallJump();
-		setJumpCount();
+		
 	}
 
-	void playerJump() {
-		if (jump) {
-			//std::cout << "vertical jumping" << std::endl;
-			if (transform->velocity.y > -4) {
-				transform->velocity.y -= 0.8f;
+
+	void applyDrag() {
+		if (transform->velocity.x < 0.15f && transform->velocity.x > -0.15f) {
+			transform->velocity.x = 0;
+		}
+		else if (!isGrounded) {
+			if (transform->velocity.x > 0) {
+				if (transform->velocity.x < 2.0f) {
+					drag = .1f;
+				}
+				else if(transform->velocity.x < 2.4f){
+					drag = transform->acceleration;
+				}
+				else {
+					drag = 0.8f;
+				}
+				transform->velocity.x -= drag;
+			}
+			else if (transform->velocity.x < 0) {
+				if (transform->velocity.x > -2.0f) {
+					drag = .1f;
+				}
+				else if (transform->velocity.x > -2.4f) {
+					drag = transform->acceleration;
+				}
+				else {
+					drag = 0.8f;
+				}
+				transform->velocity.x += drag;
+			}
+		}
+		else {
+			if (transform->velocity.x > 0) {
+				if (transform->velocity.x < 2.0f) {
+					drag = .2f;
+				}
+				else if (transform->velocity.x < 2.4f) {
+					friction = transform->acceleration;
+				}
+				else {
+					drag = 0.8f;
+				}
+				transform->velocity.x -= drag;
+			}
+			else if (transform->velocity.x < 0) {
+				if (transform->velocity.x > -2.0f) {
+					drag = .2f;
+				}
+				else if (transform->velocity.x > -2.4f) {
+					friction = transform->acceleration;
+				}
+				else {
+					drag = 0.8f;
+				}
+				transform->velocity.x += drag;
 			}
 		}
 	}
 
-	void leftWallJump() {
-		if (Ljump) {
-			if(wallJumpCount < 20) {
-				transform->position.y -= 12;
-				transform->position.x += 4;
-				wallJumpCount++;
-			}
-			if (wallJumpCount == 20) {
-				Ljump = false;
-				wallJumpCount = 0;
-				transform->velocity.y = -1;
-				transform->velocity.x = .5;
-			}
-		}
-	}
-	void rightWallJump() {
-		if (Rjump) {
-			if(wallJumpCount < 20) {
-				transform->position.y -= 12;
-				transform->position.x -= 4;
-				wallJumpCount++;
-			}
-			if (wallJumpCount == 20) {
-				Rjump = false;
-				wallJumpCount = 0;
-				transform->velocity.y = -1;
-				transform->velocity.x = -.5;
-			}
-			
-		}
-	}
 
-	void setJumpCount() {
-		if (!Rjump && !Ljump) {
-			wallJumpCount = 0;
-		}
-	}
+
 
 
 	void update() {
 		applyAccelerations();
-
 	}
+
 	void init() {
 		transform = &entity->getComponent<TransformComponent>();
 		isGrounded = false;
 		leftWalled = false;
 		rightWalled = false;
-		jump = false;
-		Ljump = false;
-		Rjump = false;
-		wallJumpCount = 0;
 		
 	}
 
